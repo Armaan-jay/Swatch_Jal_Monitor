@@ -94,6 +94,64 @@ header nav a:hover {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
+#about {
+  background-color: #f9f9f9; /* light gray background */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-image {
+  flex-basis: 40%; /* adjust the width of the image */
+  margin: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 250px; /* adjust the height of the image */
+  object-fit: cover;
+  border-radius: 10px; /* rounded corners */
+}
+
+.about-content {
+  flex-basis: 50%; /* adjust the width of the content */
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; /* white background */
+  border: 1px solid #ddd; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #666; /* medium gray text */
+  margin-bottom: 20px;
+}
+
+.about-content button {
+  background-color: #337ab7; /* blue button color */
+  color: #fff; /* white text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* rounded corners */
+}
+
+/* hover effect for button */
+.about-content button:hover {
+  background-color: #23527c; /* darker blue on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+}
 #services {
   background-color: #f7f7f7; /* light gray background */
   padding: 40px;
