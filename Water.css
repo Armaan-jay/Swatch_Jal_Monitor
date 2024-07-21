@@ -94,6 +94,49 @@ header nav a:hover {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
+#services {
+  background-color: #f7f7f7; /* light gray background */
+  padding: 40px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  flex-basis: 30%; /* adjust the width of each service */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd; /* light gray border */
+  border-radius: 10px; /* rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.service h3 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333; /* dark gray text */
+}
+
+.service p {
+  font-size: 16px;
+  color: #666; /* medium gray text */
+}
+
+.service i {
+  font-size: 24px;
+  color: #337ab7; /* blue icon color */
+  margin-bottom: 10px;
+}
+
+/* hover effect for services */
+.service:hover {
+  background-color: #fff; /* white background on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+  transform: translateY(-5px); /* slight lift on hover */
+}
 /* Contact Section Styles */
 
 #contact {
